@@ -1,4 +1,4 @@
-# Dan-Frych | Variant 30| Python | 2022
+# Dan-Frych | Variant 30 | Python | 2022
 
 
 * ### [Lab 6 - Chatroom](Resources/Lab6.png)
