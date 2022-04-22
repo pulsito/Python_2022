@@ -46,7 +46,11 @@
 
 ### Результат:
 
-![Lab 8](Resources/Lab8.png)
+![Lab 8](Resources/Lab8(1).png)
+![Lab 8](Resources/Lab8(2).png)
+![Lab 8](Resources/Lab8(3).png)
+![Lab 8](Resources/Lab8(4).png)
+![Lab 8](Resources/Lab8(5).png)
 
 </p>
 </details>
