@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS only -->
+    <link rel="icon" type="image/png" href="https://freesvg.org/img/flat_location_logo.png" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>IP info</title>
+</head>
+<body class="bg-light">
+
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <img width="20" height="20" class="me-2"  src="https://freesvg.org/img/flat_location_logo.png" >
+                <strong>IP Info</strong>
+            </a>
+
+        </div>
+    </div>
+
+
+
+    <table class="table">
+        <thead class="thead-inverse table-responsive">
+          <tr>
+            <th>Type</th>
+            <th>Info</th>
+
+          </tr>
+        </thead>
+        <tbody>
+
+          {% for key, value  in data.items() %}
+          {% if key != "location" %}
+          <tr>
+            <th scope="row">{{key}}</th>
+            <td>{{value}}</td>
+          </tr>
+          {% endif %}
+
+          {% endfor %}
+
+          <footer class="bg-dark text-center text-white fixed-bottom">
+            <!-- Grid container -->
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                <h7>© 2022 Python: DF 205</h7>
+
+            </div>
+            <!-- Copyright -->
+        </footer>
+</body>
+</html>
