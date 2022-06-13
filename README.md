@@ -117,3 +117,22 @@
 </p>
 </details>
 
+* ### [Exam - IP Info](Resources/Exam.png)
+
+<details><summary>Детальніше</summary>
+<p>
+    
+### Завдання:
+   За допомогою сервісу створіть односторінковий flask застосунок, який виводить геолокацію та IP адресу клієнта.
+   Для отримання ip адреси клієнта використовуйте метод request.remote_addr
+
+
+### Результат:
+
+http://pulsito.pythonanywhere.com/    
+    
+![exam](Resources/Exam.png)
+
+</p>
+</details>
+
